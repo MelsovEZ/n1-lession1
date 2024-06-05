@@ -1,3 +1,7 @@
+## Preface
+
+I completed (I think) all three parts of the task.
+
 ## Getting Started
 
 First, run the development server:

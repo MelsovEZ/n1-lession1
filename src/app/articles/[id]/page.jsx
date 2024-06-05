@@ -1,7 +1,7 @@
 import articles from './data.json';
 
-export default function Articles({ params }) {
-    const { id } = params;
+export default function Articles({params}) {
+    const {id} = params;
 
     const article = articles.find(article => article.id === parseInt(id, 10));
 
@@ -37,12 +37,4 @@ export default function Articles({ params }) {
             </div>
         </main>
     );
-}
-
-export async function generateStaticParams() {
-    return articles.map(article => ({
-        params: {
-            id: article.id.toString()
-        }
-    }));
 }

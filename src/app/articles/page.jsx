@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import articlesData from '@/app/articles/[id]/data.json';
+import articlesData from './[id]/data.json';
 
 export function generateStaticParams() {
     return articlesData.map(article => ({

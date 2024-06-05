@@ -10,7 +10,7 @@ export default function Articles({params}) {
     }
 
     return (
-        <main className="bg-white shadow-md rounded-lg overflow-hidden max-w-7xl w-full p-8 my-8 mx-auto">
+        <main className="bg-white shadow-md rounded-lg overflow-hidden max-w-[90%] w-full p-8 my-3 mx-auto">
             <h1 className="text-3xl font-bold mb-6 text-center">{article.title}</h1>
             <div className="prose max-w-none p-3">
                 <p className='mb-5'>{article.description}</p>

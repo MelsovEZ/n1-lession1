@@ -4,7 +4,7 @@ import articlesData from '@/app/articles/[id]/data.json';
 export default function Articles() {
     return (
         <div>
-            <section className="py-12">
+            <section className="py-5">
                 <div className="max-w-4xl mx-auto px-4">
                     <h1 className="text-4xl font-bold text-center mb-8">Blog</h1>
                     <div className='mt-5 text-center flex flex-col items-center space-y-5'>

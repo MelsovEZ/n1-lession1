@@ -1,5 +1,12 @@
 import articles from './data.json';
 
+// Function to generate static params for articles
+export function generateStaticParams() {
+    return articles.map(article => ({
+        params: { id: article.id.toString() }
+    }));
+}
+
 export default function Articles({ params }) {
     // Destructuring the 'params' object to get the 'id'
     const { id } = params;

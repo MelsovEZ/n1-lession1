@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
     return (
         <main className='flex flex-col items-center py-5 px-3'>
@@ -7,7 +9,7 @@ export default function Home() {
                 <img className='rounded-xl w-[700px]'
                      src="https://about.fb.com/wp-content/uploads/2024/02/Facebook-News-Update_US_AU_Header.jpg?fit=1920%2C1080"
                      alt=""/>
-                <a href="/articles" className='text-2xl font-bold mt-5'>ЧИТАТЬ</a>
+                <Link href="/articles" className='text-2xl font-bold mt-5'>ЧИТАТЬ</Link>
             </div>
         </main>
     );

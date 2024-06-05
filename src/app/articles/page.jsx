@@ -14,8 +14,8 @@ export default function Articles() {
                                 <div className="p-6">
                                     <h2 className="text-2xl font-semibold mb-4">{article.title}</h2>
                                     <p className="text-gray-700 mb-4">{article.description}</p>
-                                    <a href={`/articles/${article.id}`} className="text-blue-600 hover:text-blue-800">Read
-                                        more</a>
+                                    <Link href={`/articles/${article.id}`} className="text-blue-600 hover:text-blue-800">Read
+                                        more</Link>
                                 </div>
                             </Link>
                         ))}
